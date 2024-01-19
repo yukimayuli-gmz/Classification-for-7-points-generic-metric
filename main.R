@@ -605,6 +605,19 @@ search_case_number_by_generic_metric<-function(M_metric,data_path = getwd()){
   }
   rownames(K23)<-NULL
   colnames(K23)<-NULL
+  if(length(K23)==6){
+    if(K23[6]==2){
+      K23<-c(K23,label_l)
+    }
+  }else if(length(K23)>10){
+    if(ncol(K23)==6){
+      k23_2_sides_number<-which(K23[,6]==2)
+      if(length(k23_2_sides_number)==1){
+        K23<-cbind(K23,0)
+        K23[k23_2_sides_number,7]<-label_l
+      }
+    }
+  }
   #output: case_number, permutation_combine, base_case_number, f_matrix, quartets, k23
   result_list<-list(case_number = case_number,
                     permutation = permutation_combine,
