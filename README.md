@@ -21,10 +21,24 @@ Then run the search function.<br>
 
 ## Arguments
 
-When use the search function in R, there are two parameters can be set.<br>
+When use the search function in R, there are 2 parameters can be set.<br>
 * `M_metric`<br>
 The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
 * `data_path`<br>
 The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.
 
 ## Value
+
+The output of the search function is a list in R with 6 objects.<br>
+* `case_number`<br>
+The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have not been uploaded yet).<br>
+* `permutation`<br>
+A permutation of 7 taxa for input generic metric. The permutated new metric with new taxa ordering is corresponds to other output information. The permutation $\{p_1, p_2, ..., p_7\}$ is means put column $p_1$ of input matrix to column 1 of new matrix.<br>
+* `Base_case`<br>
+The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
+* `Gromov_structure_and_extended_graph`<br>
+The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.<br>
+* `Quartets`<br>
+The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
+* `K23`<br>
+The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.
