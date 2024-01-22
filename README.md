@@ -17,9 +17,7 @@ This function uses sample Linear Programming, user need to install `gurobi` or `
 First, download all files, run `functions.R` and `main.R` in R.<br>
 Then run the search function.<br>
 
-    dyn.load("{the path of your R }/library/lpnet/libs/x64/lpnet.dll")
-
-a
+    search_case_number_by_generic_metric(M_metric = M, data_path = {the path for storing the folder rdatalist})
 
 ## Arguments
 
