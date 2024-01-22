@@ -17,8 +17,14 @@ This function uses sample Linear Programming, user need to install `gurobi` or `
 First, download all files, run `functions.R` and `main.R` in R.<br>
 Then run the search function.<br>
 
-    search_case_number_by_generic_metric(M_metric = M, data_path = {the path for storing the folder rdatalist})
+    search_case_number_by_generic_metric(M_metric = {a generic metric}, data_path = {the path for storing the folder rdatalist})
 
 ## Arguments
+
+When use the search function in R, there are two parameters can be set.<br>
+* `M_metric`<br>
+The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
+* `data_path`<br>
+The path for storing the folder rdatalist, default is `getwd()` which means the current path used by R.
 
 ## Value
