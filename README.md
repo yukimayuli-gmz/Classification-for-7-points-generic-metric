@@ -35,10 +35,10 @@ The number of generic metric case in this base case. In each base case, all feas
 * `permutation`<br>
 A permutation of 7 taxa for input generic metric. The permutated new metric with new taxa ordering is corresponds to other output information. The permutation $(p_1, p_2, ..., p_7)$ is means put column $p_1$ of input matrix to column 1 of new matrix.<br>
 * `Base_case`<br>
-The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
+The number of the `Base Case` to which input generic metric belongs.<br>
 * `Gromov_structure_and_extended_graph`<br>
-The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.<br>
+The `Gromov Structure` and `Extended Graph` to which input generic metric belongs. This is an integer matrix with 6 columns. Column 1 represent the taxa 1 to 7. Column 1, 2 and 3 represent three taxa which form the minimal Gromov product at the taxa in colomn 1 in Gromov Structure. The number in column 4 is 8 or 9, the number is 8 means using `Choice 1` to get a extended $(3,x)$-soluiton graph, the number is 9 means using `Choice 2` or `Choice 3` to get a extended $(3,x)$-soluiton graph. Column 5 and 6 represent two taxa be selected <br>
 * `Quartets`<br>
-The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
+The number of the Base Case to which input generic metric belongs.<br>
 * `K23`<br>
-The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.
+The number of the Base Case to which input generic metric belongs.
