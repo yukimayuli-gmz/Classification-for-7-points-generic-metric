@@ -37,8 +37,8 @@ A permutation of 7 taxa for input generic metric. The permutated new metric with
 * `Base_case`<br>
 The number of the `Base Case` to which input generic metric belongs.<br>
 * `Gromov_structure_and_extended_graph`<br>
-The `Gromov Structure` and `Extended Graph` to which input generic metric belongs. This is an integer matrix with 6 columns. Column 1 represent the taxa 1 to 7. Column 1, 2 and 3 represent three taxa which form the minimal Gromov product at the taxa in colomn 1 in Gromov Structure. The number in column 4 is 8 or 9, the number is 8 means using `Choice 1` to get a extended $(3,x)$-soluiton graph, the number is 9 means using `Choice 2` or `Choice 3` to get a extended $(3,x)$-soluiton graph. Column 5 and 6 represent two taxa be selected <br>
+The `Gromov Structure` and `Extended Graph` to which input generic metric belongs. This is an integer matrix with 6 columns. Column 1 represent the taxa 1 to 7. Column 1, 2 and 3 represent the three taxa which form the minimal Gromov product at the taxa in colomn 1 in Gromov Structure. The number in column 4 is 8 or 9, the number is 8 means using `Choice 1` to get a extended $(3,x)$-soluiton graph, the number is 9 means using `Choice 2` or `Choice 3` to get a extended $(3,x)$-soluiton graph. Column 5 and 6 represent the two taxa be selected when obtaining the extended graph.<br>
 * `Quartets`<br>
-The number of the Base Case to which input generic metric belongs.<br>
+Quartets that are consistent with the general metric. We only record those quartets that remain undetermined in the early steps of the classification process and need to be checked. The `Quartets` object is 0 means all 35 quartets are determined and there are no quartets need to be checked. Otherwise, this is a matrix or vector (if only one row) with 5 columns. One row is $(x, y_1, y_2, y_3, z)$ represent a quartets with $d(x,y_{z}) > d(y_{z'}, y_{z''})$. <br>
 * `K23`<br>
-The number of the Base Case to which input generic metric belongs.
+$K_{2,3}$ that are consistent with the general metric.
