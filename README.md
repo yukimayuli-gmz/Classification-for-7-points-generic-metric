@@ -25,6 +25,6 @@ When use the search function in R, there are two parameters can be set.<br>
 * `M_metric`<br>
 The distance matrix of a generic metric (the matrix should be a suitable generic metric and a symmetric matrix).<br>
 * `data_path`<br>
-The path for storing the folder rdatalist, default is `getwd()` which means the current path used by R.
+The path for storing the folder `rdatalist`, default is `getwd()` which means the current path used by R.
 
 ## Value
