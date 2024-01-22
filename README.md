@@ -17,7 +17,7 @@ This function uses sample Linear Programming, user need to install `gurobi` or `
 First, download all files, run `functions.R` and `main.R` in R.<br>
 Then run the search function.<br>
 
-dyn.load("{the path of your R }/library/lpnet/libs/x64/lpnet.dll")
+    dyn.load("{the path of your R }/library/lpnet/libs/x64/lpnet.dll")
 
 a
 
