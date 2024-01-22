@@ -10,6 +10,8 @@ In `main.R` file, there is the main function `search_case_number_by_generic_metr
 
 In `test.R` file, there is a section of test code with an example of a generic metric for testing purposes. Users can use this code to check whether the search function is working properly.
 
+This function uses sample Linear Programming, user need to install `gurobi` or `Rglpk` package in R.
+
 ## Usage
 
 ## Arguments
