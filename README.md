@@ -42,3 +42,9 @@ The `Gromov Structure` and `Extended Graph` to which input generic metric belong
 Quartets that are consistent with the general metric. We only record those quartets that remain undetermined in the early steps of the classification process and need to be checked. The `Quartets` object is 0 means all 35 quartets are determined and there are no quartets need to be checked. Otherwise, this is a matrix or vector (if only one row) with 5 columns. A row is $(x, y_1, y_2, y_3, z)$ represents a quartets with $d(x,y_{z}) > d(y_{z'}, y_{z''})$, $z \in$ {1,2,3} and $z \neq z', z''$.<br>
 * `K23`<br>
 $K_{2,3}$ that are consistent with the general metric. We only record those $K_{2,3}$ that remain undetermined in the early steps of the classification process and need to be checked. The $K_{2,3}$ object is 0 means all $K_{2,3}$ are determined and there are no $K_{2,3}$ need to be checked. Otherwise, this is a matrix or vector (if only one row) with 6 or 7 columns. In a row, the first 6 column is $(x_1, x_2, y_1, y_2, z, w)$ represents a $K_{2,3}$ with $x_{1}x_{2}, y_{1}y_{2}$ are the two edges and $z$ is the `central point`. $w = 1$ means that only one edge of $x_{1}x_{2}$ and $y_{1}y_{2}$ can form a triangle with $z$ and get a feasible $K_{2,3}$ graph, so, during the classification process, we do not need to check them. If there are only one row with $w = 2$, we also did not check them, because there are only two feasible generic metrics, each satisfying the two distinct $K_{2,3}$ graphs. If there are more than two rows with $w=2$, we will add column 7 to the matrix to indicate which $K_{2,3}$ graph the generic metric be consistent with. If the column 7 is 1, it indicates that the edge $x_{1}x_{2}$ forms a triangle with $z$. Conversely, if the column 7 is 2, it indicates that the edge $y_{1}y_{2}$ forms a triangle with $z$.
+
+## Inequalities and Extreme Rays
+
+We
+
+## Reference
