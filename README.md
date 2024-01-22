@@ -47,7 +47,7 @@ $K_{2,3}$ that are consistent with the general metric. We only record those $K_{
 
 We have uploaded all the `inequalities` and `extreme rays` data corresponding to every general metrics to Zenodo. They are quite extensive, so we segmented them based on 37 base cases. User can use `case_number` to find the inequalities and extreme rays corresponding to a general metric.
 
-When saving the extreme ray data, we saved the data for every 10,000 cases in a text file, and used
+When saving the extreme ray data, we saved the data for every 10,000 cases in a text file `rays_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. And used
 
         ###
         case_number
@@ -55,6 +55,12 @@ When saving the extreme ray data, we saved the data for every 10,000 cases in a 
         
 to indicate the separation at the end of extreme rays for each case.
 
-In the `isomorphic_rays_list.txt` file, we 
+We have classified all prime metrics of 7 points into 13,182 equivalence classes (the prime metrics of the `Metric Cone` are the extreme rays of every generic metrics). And we saved them in the file `isomorphic_rays_list.txt`. Within the file `isomorphic_rays_list.txt`, we further divided these equivalence classes into 7,783 different categories based on the frequency of each number in the prime metrics. In the `isomorphic_rays_list.txt` file, the first line of each category represents a vector indicating the frequency of appearance of different numbers starting from 0 in that category of prime metrics. Each subsequent line represents an equivalence class of prime metrics. Finally, the 7,783 different categories are separated by
+
+        ###
+        category number
+        ###.
+
+We also saved the label of every extreme rays in the 13,182 equivalence classes, for every 10,000 cases in a text file `rays_label_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. In the file storing labels, each line represents a vector with 4 numbers (a, b, c, d), where $a$ represents the `case_number`, $b$ represents the ray number in this case, $c$ indicates which of the 7,783 categories this ray belongs to, and $d$ indicates which equivalence class within this category the ray belongs to.
 
 ## Reference
