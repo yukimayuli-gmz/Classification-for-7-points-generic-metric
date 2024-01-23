@@ -31,7 +31,7 @@ The path for storing the folder `rdatalist`, default is `getwd()` which means th
 
 The output of the search function is a list in R with 6 objects.<br>
 * `case_number`<br>
-The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have not been uploaded yet).<br>
+The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have been uploaded in Zenodo[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10553779.svg)](https://doi.org/10.5281/zenodo.10553779)).<br>
 * `permutation`<br>
 A permutation of 7 taxa for input generic metric. The permutated new metric with new taxa ordering is corresponds to other output information. The permutation $(p_1, p_2, ..., p_7)$ is means put column $p_1$ of input matrix to column 1 of new matrix.<br>
 * `Base_case`<br>
