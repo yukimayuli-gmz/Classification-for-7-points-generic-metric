@@ -31,7 +31,7 @@ The path for storing the folder `rdatalist`, default is `getwd()` which means th
 
 The output of the search function is a list in R with 6 objects.<br>
 * `case_number`<br>
-The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have been uploaded in [!Zenodo](https://doi.org/10.5281/zenodo.10553779)).<br>
+The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have been uploaded in [Zenodo](https://doi.org/10.5281/zenodo.10553779)).<br>
 * `permutation`<br>
 A permutation of 7 taxa for input generic metric. The permutated new metric with new taxa ordering is corresponds to other output information. The permutation $(p_1, p_2, ..., p_7)$ is means put column $p_1$ of input matrix to column 1 of new matrix.<br>
 * `Base_case`<br>
@@ -45,7 +45,7 @@ $K_{2,3}$ that are consistent with the general metric. We only record those $K_{
 
 ## Inequalities and Extreme Rays
 
-We have uploaded all the `inequalities` and `extreme rays` data corresponding to every general metrics to Zenodo. They are quite extensive, so we segmented them based on 37 base cases. User can use `case_number` to find the inequalities and extreme rays corresponding to a general metric.
+We have uploaded all the `inequalities` and `extreme rays` data corresponding to every general metrics to [Zenodo](https://doi.org/10.5281/zenodo.10553779). They are quite extensive, so we segmented them based on 37 base cases. User can use `case_number` to find the inequalities and extreme rays corresponding to a general metric.
 
 When saving the extreme ray data, we saved the data for every 10,000 cases in a text file `rays_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. And used
 
