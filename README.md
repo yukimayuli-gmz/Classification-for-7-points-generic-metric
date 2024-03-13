@@ -73,6 +73,6 @@ We suppose 8 (or 9) appears twice in 8 (or 9) triples of a *Gromov product struc
 * `8_points_gromov_structure_2_regular_multigraph_*.txt` and `9_points_gromov_structure_2_regular_multigraph_*.txt`<br>
 We suppose all points appear three times in 8 (or 9) triples of a *Gromov product structure*. Then we consider 8 (or 9) edges by deleting the vertexes from all triples, the the edges form a 2-regular multigraph. The asterisk (*) in the file name represents the shape of the 2-regular multigraph. For example, in "4_2_2", it indicates that the 2-regular multigraph includes one square and two edges.<br>
 
-We use $(x;y,z)$ to represent a triple, which is consistent with the symbols used in our article. Another commonly used representation is $\delta_{xyz}$.
+We use $(x;y,z)$ to represent a triple, which is consistent with the symbols used in our article. Another commonly used representation is $\Delta_{xyz}$.
 
 ## Reference
