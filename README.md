@@ -63,4 +63,16 @@ We have classified all prime metrics of 7 points into 13,182 equivalence classes
 
 We also saved the label of every extreme rays in the 13,182 equivalence classes, for every 10,000 cases in a text file `rays_label_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. In the file storing labels, each line represents a vector with 4 numbers (a, b, c, d), where $a$ represents the `case_number`, $b$ represents the ray number in this case, $c$ indicates which of the 7,783 categories this ray belongs to, and $d$ indicates which equivalence class within this category the ray belongs to.
 
+## Gromov Structure
+
+We also upload the `Gromov Product Structure` data with 8 and 9 points to [Zenodo](https://doi.org/10.5281/zenodo.10553779). We devide the classes of 8 and 9 points into three parts: <br>
+* `8_points_gromov_structure_with_8_degree_0.txt` and `9_points_gromov_structure_with_9_degree_0.txt`<br>
+We suppose 8 (or 9) appears only once in 8 (or 9) triples of a *Gromov product structure*.<br>
+* `8_points_gromov_structure_with_8_degree_1.txt` and `9_points_gromov_structure_with_9_degree_1.txt`<br>
+We suppose 8 (or 9) appears twice in 8 (or 9) triples of a *Gromov product structure*.<br>
+* `8_points_gromov_structure_2_regular_multigraph_*.txt` and `9_points_gromov_structure_2_regular_multigraph_*.txt`<br>
+We suppose all points appear three times in 8 (or 9) triples of a *Gromov product structure*. Then we consider 8 (or 9) edges by deleting the vertexes from all triples, the the edges form a 2-regular multigraph. The asterisk (*) in the file name represents the shape of the 2-regular multigraph. For example, in "4_2_2", it indicates that the 2-regular multigraph includes one square and two edges.<br>
+
+We use $(x;y,z)$ to represent a triple, which is consistent with the symbols used in our article. Another commonly used representation is $\delta_{xyz}$.
+
 ## Reference
