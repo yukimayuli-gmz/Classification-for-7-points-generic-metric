@@ -31,7 +31,7 @@ The path for storing the folder `rdatalist`, default is `getwd()` which means th
 
 The output of the search function is a list in R with 6 objects.<br>
 * `case_number`<br>
-The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have been uploaded in [Zenodo](https://doi.org/10.5281/zenodo.10553779)).<br>
+The number of generic metric case in this base case. In each base case, all feasible generic metrics are arranged in order when classifying, and this number can be used to search the inequalities and extreme rays corresponding to this general metric (which have been uploaded in [Zenodo](https://doi.org/10.5281/zenodo.10551370)).<br>
 * `permutation`<br>
 A permutation of 7 taxa for input generic metric. The permutated new metric with new taxa ordering is corresponds to other output information. The permutation $(p_1, p_2, ..., p_7)$ is means put column $p_1$ of input matrix to column 1 of new matrix.<br>
 * `Base_case`<br>
@@ -45,7 +45,7 @@ $K_{2,3}$ that are consistent with the general metric. We only record those $K_{
 
 ## Inequalities and Extreme Rays
 
-We have uploaded all the `inequalities` and `extreme rays` data corresponding to every general metrics to [Zenodo](https://doi.org/10.5281/zenodo.10553779). They are quite extensive, so we segmented them based on 37 base cases. User can use `case_number` to find the inequalities and extreme rays corresponding to a general metric.
+We have uploaded all the `inequalities` and `extreme rays` data corresponding to every general metrics to [Zenodo](https://doi.org/10.5281/zenodo.10551370). They are quite extensive, so we segmented them based on 37 base cases. User can use `case_number` to find the inequalities and extreme rays corresponding to a general metric.
 
 When saving the extreme ray data, we saved the data for every 10,000 cases in a text file `rays_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. And used
 
@@ -65,7 +65,7 @@ We also saved the label of every extreme rays in the 13,182 equivalence classes,
 
 ## Gromov Structure
 
-We also upload the `Gromov Product Structure` data with 8 and 9 points to [Zenodo](https://doi.org/10.5281/zenodo.10553779). We devide the classes of 8 and 9 points into three parts: <br>
+We also upload the `Gromov Product Structure` data with 8 and 9 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). We devide the classes of 8 and 9 points into three parts: <br>
 * `8_points_gromov_structure_with_8_degree_0.txt` and `9_points_gromov_structure_with_9_degree_0.txt`<br>
 We suppose 8 (or 9) appears only once in 8 (or 9) triples of a *Gromov product structure*.<br>
 * `8_points_gromov_structure_with_8_degree_1.txt` and `9_points_gromov_structure_with_9_degree_1.txt`<br>
@@ -74,5 +74,9 @@ We suppose 8 (or 9) appears twice in 8 (or 9) triples of a *Gromov product struc
 We suppose all points appear three times in 8 (or 9) triples of a *Gromov product structure*. Then we consider 8 (or 9) edges by deleting the vertexes from all triples, the the edges form a 2-regular multigraph. The asterisk (*) in the file name represents the shape of the 2-regular multigraph. For example, in "4_2_2", it indicates that the 2-regular multigraph includes one square and two edges.<br>
 
 We use $(x;y,z)$ to represent a triple, which is consistent with the symbols used in our article. Another commonly used representation is $\Delta_{xyz}$.
+
+## Extreme metric
+
+We also upload the list of all `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_rays_list.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1213.
 
 ## Reference
