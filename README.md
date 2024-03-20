@@ -77,6 +77,6 @@ We use $(x;y,z)$ to represent a triple, which is consistent with the symbols use
 
 ## Extreme metric
 
-We also upload the list of all `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_rays_list.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1213.
+We also upload the list of 3,918 equivalence classes of `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_rays_list.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1,213.
 
 ## Reference
