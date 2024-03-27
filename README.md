@@ -55,7 +55,7 @@ When saving the extreme ray data, we saved the data for every 10,000 cases in a 
         
 to indicate the separation at the end of extreme rays for each case.
 
-We have classified all prime metrics of 7 points into 13,182 equivalence classes (the prime metrics of the `Metric Cone` are the extreme rays of every generic metrics). And we saved them in the file `isomorphic_rays_list.txt`. Within the file `isomorphic_rays_list.txt`, we further divided these equivalence classes into 7,783 different categories based on the frequency of each number in the prime metrics. In the `isomorphic_rays_list.txt` file, the first line of each category represents a vector indicating the frequency of appearance of different numbers starting from 0 in that category of prime metrics. Each subsequent line represents an equivalence class of prime metrics. Finally, the 7,783 different categories are separated by
+We have classified all prime metrics of 7 points into 13,182 equivalence classes (the prime metrics of the `Metric Cone` are the extreme rays of every generic metrics). And we saved them in the file `isomorphic_prime_rays_list_with_7_points.txt`. Within the file `isomorphic_prime_rays_list_with_7_points.txt`, we further divided these equivalence classes into 7,783 different categories based on the frequency of each number in the prime metrics. In the `isomorphic_prime_rays_list_with_7_points.txt` file, the first line of each category represents a vector indicating the frequency of appearance of different numbers starting from 0 in that category of prime metrics. Each subsequent line represents an equivalence class of prime metrics. Finally, the 7,783 different categories are separated by
 
         ###
         category number
@@ -77,6 +77,6 @@ We use $(x;y,z)$ to represent a triple, which is consistent with the symbols use
 
 ## Extreme metric
 
-We also upload the list of 3,918 equivalence classes of `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_rays_list.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1,213.
+We also upload the list of 3,918 equivalence classes of `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_prime_rays_list_with_7_points.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1,213.
 
 ## Reference
