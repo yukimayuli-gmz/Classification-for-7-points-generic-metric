@@ -61,6 +61,8 @@ We have classified all prime metrics of 7 points into 13,182 equivalence classes
         category number
         ###.
 
+And we filter out all graphicable rays and list them in the file `graphicable_prime_rays_list_with_7_points.txt`.
+
 We also saved the label of every extreme rays in the 13,182 equivalence classes, for every 10,000 cases in a text file `rays_label_case_{i}_{j}.txt`, so the $i$ is the number of base case and $j$ is the `case_number` divided by 10000 and rounded up. In the file storing labels, each line represents a vector with 4 numbers (a, b, c, d), where $a$ represents the `case_number`, $b$ represents the ray number in this case, $c$ indicates which of the 7,783 categories this ray belongs to, and $d$ indicates which equivalence class within this category the ray belongs to.
 
 ## Gromov Structure
@@ -77,6 +79,6 @@ We use $(x;y,z)$ to represent a triple, which is consistent with the symbols use
 
 ## Extreme metric
 
-We also upload the list of 3,918 equivalence classes of `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_prime_rays_list_with_7_points.txt` we described ealier. Note that we manually added the trivial split at the end of the list, which is the item 1,213.
+We also upload the list of 3,918 equivalence classes of `extreme metrics` with 8 points to [Zenodo](https://doi.org/10.5281/zenodo.10551370). The file name is `isomorphic_extreme_metrics_list_with_8_points.txt`. The format of this file is the same as the file `isomorphic_prime_rays_list_with_7_points.txt` we described ealier. Note that we manually added the trivial split at the beginning of the list, which is the item 1. We also filter out all graphicable extreme metrics and list them in the file `graphicable_extreme_metrics_list_with_8_points.txt`.
 
 ## Reference
